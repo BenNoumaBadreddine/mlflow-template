@@ -16,7 +16,7 @@ In case the port is already in use, we can Kill the PID using that port:
   
       sudo kill -9 27566
 
-![Alt text](images/KILL_PID.png "KILL-PID-ON_MAC")
+![img.png](images/KILL_PID.png)
 
 # Setting up mlflow to use postgres database: Database Tracking, Minio Artifact Storage
 In this solution, the mlflow uses a PostgreSQL DB as the tracking URI and Minio as the artifact URI.
@@ -114,7 +114,7 @@ Create a new server:
 ![img.png](images/docker_pycharm_interpreter_new_server.png)
 Select Docker image:
 ![img.png](images/docker_pycharm_select_docker_image.png)
-You python project will use the remote interpreter that is already defined based on the docker container.
+In that case, your python project will use the remote interpreter. The one that is already defined based on the docker container.
 
 
 
