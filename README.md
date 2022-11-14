@@ -16,7 +16,7 @@ In case the port is already in use, we can Kill the PID using that port:
   
       sudo kill -9 27566
 
-![img.png](images/KILL_PID.png)
+![Alt text](images/kill_PID.png "KILL-PID-ON_MAC")
 
 # Setting up mlflow to use postgres database: Database Tracking, Minio Artifact Storage
 In this solution, the mlflow uses a PostgreSQL DB as the tracking URI and Minio as the artifact URI.
